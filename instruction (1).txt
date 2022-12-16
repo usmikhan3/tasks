@@ -1,0 +1,17 @@
+colors:
+primary color: #E43228
+secondary color: #AF0917
+
+instructions:
+1.splash screen
+
+2. Login screen:
+API: https://jsonplaceholder.typicode.com/users
+since this API doesn't contain a password field, use username as a password.
+
+3. All posts:
+API: https://jsonplaceholder.typicode.com/posts
+If the post is from the logged-in user then make its title bold and of Primary color.
+
+4. Profile:
+show data of the logged-in user via state management.
